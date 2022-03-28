@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PortFolio Suite]">
+  <test thread-count="5" name="Create Portfolio-Create New PortFolio-pos-It.1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="datafilpath" value="F:\eclipse-workspace\DataDrivenFramework//src//test//resources//jsons//data//portfoliodata.json"/>
+    <parameter name="action" value="createport"/>
+    <parameter name="iteration" value="0"/>
+    <parameter name="dataflag" value="createnewportfolio"/>
+    <classes>
+      <class name="testcases.rediff.PortfolioManagement">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="createPortfolio"/>
+        </methods>
+      </class> <!-- testcases.rediff.PortfolioManagement -->
+    </classes>
+  </test> <!-- Create Portfolio-Create New PortFolio-pos-It.1(failed) -->
+  <test thread-count="5" name="Create Portfolio-Create New PortFolio-pos-It.2(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="datafilpath" value="F:\eclipse-workspace\DataDrivenFramework//src//test//resources//jsons//data//portfoliodata.json"/>
+    <parameter name="action" value="createport"/>
+    <parameter name="iteration" value="1"/>
+    <parameter name="dataflag" value="createnewportfolio"/>
+    <classes>
+      <class name="testcases.rediff.PortfolioManagement">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="createPortfolio"/>
+        </methods>
+      </class> <!-- testcases.rediff.PortfolioManagement -->
+    </classes>
+  </test> <!-- Create Portfolio-Create New PortFolio-pos-It.2(failed) -->
+  <test thread-count="5" name="Delete Portfolio-Delete Existing PortFolio-It.1(failed)">
+    <parameter name="datafilpath" value="F:\eclipse-workspace\DataDrivenFramework//src//test//resources//jsons//data//portfoliodata.json"/>
+    <parameter name="iteration" value="0"/>
+    <parameter name="localpara1" value="localval1"/>
+    <parameter name="dataflag" value="deleteportfolio"/>
+    <classes>
+      <class name="testcases.rediff.PortfolioManagement">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="deletePortfolio"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testcases.rediff.PortfolioManagement -->
+    </classes>
+  </test> <!-- Delete Portfolio-Delete Existing PortFolio-It.1(failed) -->
+  <test thread-count="5" name="Delete Portfolio-Delete Existing PortFolio-It.2(failed)">
+    <parameter name="datafilpath" value="F:\eclipse-workspace\DataDrivenFramework//src//test//resources//jsons//data//portfoliodata.json"/>
+    <parameter name="iteration" value="1"/>
+    <parameter name="localpara1" value="localval1"/>
+    <parameter name="dataflag" value="deleteportfolio"/>
+    <classes>
+      <class name="testcases.rediff.PortfolioManagement">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="deletePortfolio"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testcases.rediff.PortfolioManagement -->
+    </classes>
+  </test> <!-- Delete Portfolio-Delete Existing PortFolio-It.2(failed) -->
+</suite> <!-- Failed suite [PortFolio Suite] -->
